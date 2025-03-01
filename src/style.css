@@ -33,11 +33,14 @@ header{
         cursor: pointer;
         margin-left: 5px;
     }
+    .a{
+        color: #875DF0 ;
+    }
     footer{
         border-top: 1px solid #F9F7FE;
         padding: 30px 0 0 0;
         color: gray;
         text-align: center;
         font-size: 14px;
-
+        opacity: 0.7;
     }
