@@ -1,3 +1,4 @@
+console.log("Hello from Marthania and the SheCodes Team!");
 //weather data
 function updateWeatherData(response){
     console.log(response.data.temperature.current);
@@ -65,7 +66,6 @@ function getForecast(city){
 }
 //forecast
 function displayForecast(response){
-console.log(response.data);
 let forecastHtml="";
 response.data.daily.forEach(function(day,index){
     if(index<5){
