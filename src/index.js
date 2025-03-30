@@ -38,6 +38,7 @@ function formatDate(date){
     let day=days[date.getDay()];
     return `${day} ${hours}:${minutes}`;
 }
+
 //api key
 function searchCity(city){
     let apiKey  = "88bf2d049e3o03c506t04489abf0bb1a";
@@ -87,7 +88,6 @@ searchFormElement.addEventListener("submit",handleSearchSubmit);
 
 searchCity("Bulawayo");
 getForecast("Bulawayo");
-setInterval(formatDate,1000);
 
 
 
