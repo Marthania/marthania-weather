@@ -87,6 +87,7 @@ searchFormElement.addEventListener("submit",handleSearchSubmit);
 
 searchCity("Bulawayo");
 getForecast("Bulawayo");
+setInterval(formatDate,10000);
 
 
 
